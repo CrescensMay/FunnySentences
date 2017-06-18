@@ -47,7 +47,7 @@ public class AppActivity extends AppCompatActivity {
             }
         };
         mShowFactButton.setOnClickListener(listener);
-        Toast.makeText(AppActivity.this,"Yeah! The App has succesfully launched",Toast.LENGTH_SHORT).show();
+        Toast.makeText(AppActivity.this,"Yeah! App has succesfully launched",Toast.LENGTH_LONG).show();
 //        Log.d("AppActivity","We are logging from the onCreate() method");
     }
 }
